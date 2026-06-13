@@ -1,3 +1,14 @@
+import Navbar from "@/components/navbar/Navbar";
+import HeroSection from "@/components/sections/HeroSection";
+
 export default function Home() {
-  return <main>Portfolio Coming Soon</main>;
+  return (
+    <>
+      <Navbar />
+
+      <main>
+        <HeroSection />
+      </main>
+    </>
+  );
 }
